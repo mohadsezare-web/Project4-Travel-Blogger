@@ -1,0 +1,738 @@
+body{
+    font-family: "Give You Glory", cursive;
+    font-family:"Playfair Display", serif; 
+    font-family: "Montserrat", sans-serif;
+    ::selection{
+        color: rgba(176, 104, 53, 0.9) ;
+    }
+    
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    >.section1{
+        width: 100%;
+        height: 700px;
+         /* border: 2px solid red; */
+        background-image: url(../img/bg-02-free-img.png);
+        background-color:rgb(255, 233, 228) ;
+        background-repeat: no-repeat;
+        background-position: -200px 0;
+        >.row{
+            >header{
+                width: 100%;
+                height: 50px;
+                /* border: 2px solid black; */
+                padding: 0 30px;
+                z-index: 1;
+               >.row{
+                height: 100%;
+                     >*{
+                        height: 100%;
+                        /* border: 2px solid rebeccapurple; */
+                    }
+                    >.icon1{
+                        width: 20%;
+                        >ul{
+                            display: flex;
+                            gap: 10px;
+                            >li{
+                                padding-top: 9px;
+                                >a{
+                                    color: rgba(17, 17, 17, 0.589);
+                                    transition: .5s;
+                                    &:hover{
+                                        color: rgb(176, 105, 53);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    >nav{
+                        width: 60%;
+                        >ul{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 25px;
+                            >li{
+                                position: relative;
+                                >a{
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    text-transform: uppercase;
+                                    font-family:"Montserrat", sans-serif ;
+                                    color: rgba(17, 17, 17, 0.589); 
+                                    transition: .5s;
+                                    &:hover{
+                                        color: rgb(13, 13, 13);
+                                    }
+                                }
+                                &:hover{
+                                    >ul{
+                                        height: 160px;
+                                    }
+                                }
+                                >ul{
+                                    width: 160px;
+                                    height: 0;
+                                    /* border: 2px solid red; */
+                                    position: absolute;
+                                    top: 38px;
+                                    left: -6px;
+                                    overflow: hidden;
+                                    transition: .5s;
+                                    >li{
+                                        width: 100%;
+                                        height: 40px;
+                                        padding-left: 10px;
+                                        border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+                                        border-radius: 5px;
+                                        background-color: rgba(249, 244, 244, 0.979);
+                                        >a{
+                                            font-size: 13px;
+                                            font-family:"Montserrat", sans-serif ;
+                                            text-transform: uppercase;
+                                            font-weight: 500;
+                                            color: rgba(17, 17, 17, 0.589);
+                                            transition: .4s;
+                                            &:hover{
+                                                color: rgb(13, 13, 13) ;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .icon2{
+                        width: 20%;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        >span{
+                            font-size: 18px;
+                            color:rgba(17, 17, 17, 0.589) ;
+                            transition: .5s;
+                            &:hover{
+                                color: rgb(176, 105, 53);
+                            }
+                        }
+                    }
+               }
+            }
+        }
+        >.row{
+            >figure{
+                width: 168px;
+                height: 168px;
+                /* border: 2px solid yellow; */
+                margin-left: 667px;
+                margin-top: 12px;
+                >img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    filter: grayscale(100%) brightness(0%);
+                }
+            }
+        }
+        >.row{
+           >div{
+            width: 350px;
+            height: 200px;
+            /* border: 2px solid purple; */
+            margin-left: 390px;
+            margin-top: 90px;
+            >h1{
+                font-size: 59px;
+                text-transform: capitalize;
+                font-family:"Give You Glory", cursive ;
+                font-weight:400;
+                font-style: normal;
+            }
+            >h3{
+                font-size: 24px;
+                font-family:"Playfair Display", serif; 
+                font-weight: 200;
+                margin: -10px 0 18px 0;
+            }
+            >a{
+                font-size: 13px;
+                text-transform: uppercase;
+                text-decoration:underline;
+                font-family: "Montserrat", sans-serif; 
+                color: rgb(176, 105, 53);
+            }
+           }
+        }
+    }
+    >.row{
+        >.section2{
+            width: 100%;
+            height: 1200px;
+            /* border: 2px solid yellow; */
+           >.back{
+                width: 100%;
+                height: 100%;
+                background-image: url(../img/bg-01-free-img.png);
+                filter: opacity(.5);
+                background-repeat: no-repeat;
+                background-position: -202px 146px;
+            }
+            >.image{ 
+                width: 100%;
+                height: 900px;
+                /* border: 2px solid black; */
+                position: relative ;
+                margin-top: -1100px;
+                >img{
+                    object-fit: cover;
+                    position: absolute ;
+                    transition: .5s;
+                    &:nth-of-type(1){
+                        width: 380px;
+                        height: 300px;
+                        left: 0;
+                        top: -263px;
+                    }
+                    &:nth-of-type(2){
+                        width: 280px;
+                        height: 240px;
+                        left: 427px;
+                        top: -203px;
+                       
+                    }
+                    &:nth-of-type(3){
+                        width: 760px;
+                        height: 397px;
+                        right: 0;
+                        top: -358px;
+                    }
+                    &:nth-of-type(4){
+                        width: 619px;
+                        height: 750px;
+                        top: 38px;
+                        left: 448px;
+                    }
+                    &:hover{
+                        filter: sepia(20%);
+                    }
+                }
+               
+            }
+            >.row{
+                >.box1{
+                    width: 550px;
+                    height: 500px;
+                    /* border: 2px solid purple; */
+                    background-color: rgb(255, 255, 255);
+                    margin-top: -460px;
+                    margin-left: 750px;
+                    position: relative;
+                    z-index: 99;
+                    *{
+                        padding-left: 50px;
+                        padding-top: 20px;
+                    }
+                    >h4{
+                        font-size: 10px;
+                        text-transform: uppercase;
+                        font-family:"Montserrat", sans-serif ;
+                        padding-top: 50px;
+                        color: rgba(15, 15, 15, 0.603);
+                    }
+                    >h2{
+                        font-size: 50px;
+                        text-transform: capitalize;
+                        font-family:"Give You Glory", cursive ;
+                        font-weight: 300;
+                    }
+                    >p{
+                        font-size: 25px;
+                        text-transform: capitalize;
+                        font-family:"Playfair Display", serif ;
+                    }
+                    >img{
+                        margin-top: -40px;
+                    }
+                    >h5{
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        text-decoration: underline;
+                        font-family:"Montserrat", sans-serif ;
+                        color: rgba(24, 24, 24, 0.635);
+                        transition: .5s;
+                        &:hover{
+                            color:rgb(176, 105, 53) ;
+                        }
+                    } 
+               }
+            }
+            >.row{
+                >h4{
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    margin-left: 45%;
+                    margin-top: 10px;
+                    font-family:"Montserrat", sans-serif;
+                    color: rgba(16, 16, 16, 0.959);
+                }
+            }
+        }
+    }
+    >.row{
+        >.section3{
+            width: 100%;
+            /* border: 2px solid red; */
+            background-color: rgb(255, 233, 228);
+            >.row{
+                >.logo{
+                    width: 742px;
+                    height: 200px;
+                    border: 1px solid rgba(0, 0, 0, 0.174);
+                    margin-left: 25%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    background-color: rgb(255, 255, 255);
+                    position: relative;
+                    z-index: 999;
+                    margin-top: -80px;
+                    >img{
+                        width: 185px;
+                        height: 100px;
+                        border: 1px solid rgba(0, 0, 0, 0.174);
+                    }
+                }
+            }
+            >.row{
+                >.box2{
+                    width: 300px;
+                    height: 200px;
+                    /* border: 2px solid black; */
+                    margin-left: 39.5%;
+                    margin-top: 90px;
+                    *{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    >h4{
+                        font-size: 10px;
+                        text-transform: uppercase;
+                        color: rgba(21, 21, 21, 0.614);
+                        font-family: "Montserrat", sans-serif;
+                        padding-top: 20px;
+                    }
+                    >h2{
+                        font-size: 40px;
+                        text-transform: capitalize;
+                        font-family:"Give You Glory", cursive ;
+                        padding-top: 10px;
+                        color: rgba(0, 0, 0, 0.815);
+                    }
+                    >h5{
+                        width: 140px;
+                        height: 40px;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        font-family: "Montserrat", sans-serif;
+                        color: rgba(255, 255, 255, 0.858);
+                         border: 1px solid rgb(230, 57, 69); 
+                        margin-left: 74px;
+                        margin-top: 10px;
+                        background-color: rgb(230, 57, 69) ;
+                        transition: .5s;
+                        &:hover{
+                            background-color:rgba(230, 57, 69, 0.626);
+                        }
+                    }
+                }
+            }
+            >.row{
+                >.box4{
+                    width: 1357px;
+                    height: 500px;
+                    /* border: 2px solid red; */
+                    margin-left: 85px;
+                    display: flex;
+                    gap: 2px;
+                    >figure{
+                        >img{
+                            width: 450px;
+                        }
+                        >figcaption{
+                            width: 400px;
+                            height: 150px;
+                            /* border: 2px solid black; */
+                            margin-left: 25px;
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 20px;
+                            >h4{
+                                font-size: 28px;
+                                text-transform: capitalize;
+                                font-family:"Playfair Display", serif ;
+                                color: rgba(0, 0, 0, 0.826);
+                                font-weight: 400;
+                                padding-top: 10px;
+                                text-align: center;
+                            }
+
+                        }
+                    }
+                   }
+                   
+            }   
+                
+        }
+            
+            
+    }
+    >.row{
+        >.section4{
+            width: 100%;
+            /* border: 2px solid yellow; */
+            >.row{
+                >.parag{
+                    width: 220px;
+                    height: 150px;
+                    /* border: 2px solid rebeccapurple; */
+                    margin-top: 40px;
+                    margin-left: 43%;
+                    *{
+                        margin-top: 60px;
+                    }
+                    >h3{
+                        font-size: 24px;
+                        text-transform: capitalize;
+                        font-family: "Playfair Display", serif;
+                        color: rgba(0, 0, 0, 0.95);
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                        padding-left: 5px;
+                    }
+                    >a{
+                        font-size: 8;
+                        text-transform: uppercase;
+                        font-family: "Montserrat", sans-serif;
+                        text-align: center;
+                        text-decoration: underline;
+                        color:rgb(176, 105, 53) ;
+                        padding-left: 68px;
+                    }
+                }
+            }
+            >.row{
+                >.box5{
+                    width: 1350px;
+                    height: 800px;
+                    /* border: 2px solid orange; */
+                    margin-left: 90px;
+                    margin-top: 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    >figure{
+
+                        >img{
+                            height: 100%;
+                        }
+                        >figcaption{
+                            width: 200px;
+                            height: 50px;
+                            border: 2px solid rgb(253, 249, 249);
+                            background-color: white;
+                            margin-top: -80px;
+                            margin-left: 250px;
+                            position: relative;
+                            z-index: 999;
+
+                            >h5{
+                                height: 100%;
+                                font-size: 25px;
+                                font-weight: 300;
+                                text-transform: capitalize;
+                                font-family: "Playfair Display", serif;
+                                padding-top: 4px;
+                                display: flex;
+                                justify-content: center;
+                                transition: .5s;
+                                &:hover{
+                                    background-color: rgba(13, 13, 13, 0.128);
+                                }
+                        }
+                        }
+                    }
+                }
+            }
+            >.row{
+                >.box6{
+                    width: 900px;
+                    height: 300px;
+                    /* border: 2px solid olivedrab; */
+                    margin-left: 310px;
+                    background-image: url(../img/bg-04-free-img.png);
+                    background-color:rgb(255, 233, 228) ;
+                    >h3{
+                        font-family: "Playfair Display", serif;
+                        font-size: 28px;
+                        text-transform: capitalize;
+                        font-weight: 400;
+                        margin-top: 80px;
+                        text-align: center;
+                    }
+                    >form{
+                        >input{ 
+                            width: 400px;
+                            height: 40px;
+                            font-size: 15px;
+                            text-transform: capitalize;
+                            font-family: "Montserrat", sans-serif;
+                            color: rgba(0, 0, 0, 0.733);
+                            margin-left: 240px;
+                            margin-top: 20px;
+                            border: 1px solid rgba(14, 13, 13, 0.123);
+                            padding-left: 5px;
+                        }
+                        >button{
+                            width: 100px;
+                            height: 40px;
+                            background-color: rgba(240, 248, 255, 0);
+                            border: 1px solid rgba(255, 255, 255, 0.89);
+                            margin-left: 400px;
+                            margin-top: 15px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            font-family:"Montserrat", sans-serif ;
+                            text-transform: capitalize;
+                            color:rgb(176, 105, 53) ;
+                            transition: .5s;
+                            &:hover{
+                                color: rgba(12, 12, 12, 0.913);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    >.row{
+        >.section5{
+            width: 100%;
+            min-height: 100vh;
+            /* border: 2px solid red; */
+            background-color: rgb(245, 245, 245);
+            background-image: url(../img/bg-02-free-img.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            display: flex;
+            position: relative;
+            >.one{
+                width: 50%;
+                height: 80%;
+                /* border: 2px solid yellowgreen; */
+                margin-top:155px;
+                >figure{
+                    width: 570px;
+                    height: 500px;
+                    margin-left: 185px;
+                    >img{
+                       width: 100%;
+                       
+                    }
+                }
+            }
+            >.two{
+                width: 150px;
+                height: 150px;
+                /* border: 2px solid red; */
+                position: absolute;
+                z-index: 1;
+                top: 100px;left: 45%;
+                >img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            >.there{
+                width: 50%;
+                height: 80%;
+                /* border: 2px solid rgb(216, 28, 160); */
+                margin-top: 155px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                >section{
+                    width: 480px;
+                    height: 490px;
+                    /* border: 2px solid yellow; */
+                    margin-bottom: 150px;
+                    margin-right: 160px;
+                    >span{
+                        width: 100%;
+                        font-size: 30px;
+                        color:rgb(176, 105, 53) ;
+                        padding-left: 200px;
+                    }
+                    >h3{
+                        width: 100%;
+                        font-size: 3vw;
+                        text-transform: capitalize;
+                        font-family: "Give You Glory", cursive;
+                        font-weight: 500;
+                        text-align: center;
+                        padding-top: 10px;
+                    }
+                    >div{
+                        width: 85%;
+                        border: .4px solid rgb(176, 105, 53);
+                        margin-left: 30px;
+                    }
+                    >h5{
+                        width: 100%;
+                        font-size: 15px;
+                        text-transform: capitalize;
+                        font-family:"Montserrat", sans-serif ;
+                        font-weight: 400;
+                        padding-top: 15px;
+                        text-align: center;
+                    }
+                    >h4{
+                        width: 100%;
+                        padding-top: 50px;
+                        font-size: 3vw;
+                        text-transform: capitalize;
+                        font-family: "Give You Glory", cursive;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+                    >h6{
+                        font-size: 15px;
+                        text-transform: capitalize;
+                        font-family:"Montserrat", sans-serif ;
+                        font-weight: 400;
+                        margin-top: 8px;
+                        text-align: center;
+                        padding-top: 5px;
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+        }
+    }
+    >.row{
+        >.khali{
+            width: 100%;
+            height: 200px;
+            background-color:white;
+            *{
+                text-transform: capitalize;
+                display: flex;
+                justify-content: center;
+                font-weight: 400;
+            }
+            >h3{
+                font-family:"Playfair Display", serif; 
+                font-size: 30px;
+                font-weight: 300;
+            }
+            >a{
+                font-family: "Montserrat", sans-serif;
+                font-size: 15px;
+                text-decoration: underline;
+                color:rgb(176, 105, 53) ;
+                margin-top: 10px;
+            }
+        }
+    }
+    >.row{
+       >.section6{
+        width: 100%;
+        height: 600px;
+        background-color:rgb(255, 233, 228) ;
+        >.gallery{
+            width: 1130px;
+            height: 230px;
+            /* border: 2px solid red; */
+            display: flex;
+            margin-left:12%;
+            margin-top: -100px;
+            >img{
+                object-fit: cover;
+                transition: .5s;
+                &:hover{
+                    scale: .9;
+                }
+            }
+        }
+        >.row{
+            >.footer{
+                width: 100%;
+                height: 100px;
+                /* border: 2px solid black; */
+                margin-top: 20px;
+                >ul{
+                    display: flex;
+                    justify-content: center;
+                    >li{
+                        margin-top: 70px;
+                        margin-left: 60px;
+                        >a{
+                            font-size: 18px;
+                            text-transform: capitalize;
+                            font-family:"Montserrat", sans-serif ;
+                            color: rgba(0, 0, 0, 0.5);
+                            transition: .5s;
+                            &:hover{
+                                color: rgba(18, 18, 18, 0.922);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        >.line{
+            width: 100%;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.18);
+            margin-top: 80px;
+        }
+        >.prof{
+            width: 60%;
+            height: 200px;
+            /* border: 2px solid red; */
+            margin-left: 5%;
+            margin-top: 30px;
+            transition: 1s;
+            >h3{
+                padding-top: 19px;
+                transition: 1s;
+                &:hover{
+                    color:rgb(176, 105, 53) ;
+                }
+                >span{
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    font-family:"Playfair Display", serif ;
+                    color: rgba(0, 0, 0, 0.897);
+                }
+            }
+        }
+       }
+    }
+    >strong{
+        font-size: 17px;
+            text-transform: capitalize;
+            font-family:"Playfair Display", serif ;
+            color: rgba(0, 0, 0, 0.897);
+            margin-left: 5%;
+            margin-top: -30px;
+    }
+    
+}   
+
